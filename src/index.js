@@ -1,5 +1,5 @@
 let Fields = require.context("./fields/", false, /^\.\/field([\w-_]+)\.vue$/);
-let FormlyBootstrap = {
+let FormlyQuasarFramework = {
     install(Vue, options){        
         Fields.keys().forEach((key) => {
             //remove all the .vue crap
@@ -18,7 +18,7 @@ let FormlyBootstrap = {
 
 //auto install
 if (typeof window !== 'undefined' && window.Vue) {
-    window.Vue.use(FormlyBootstrap);
+    window.Vue.use(FormlyQuasarFramework);
 }
 
-export default FormlyBootstrap;
+export default FormlyQuasarFramework;
