@@ -1,15 +1,14 @@
 {
-  "name": "vue-formly-bootstrap",
-  "version": "2.2.7",
-  "description": "A bootstrap based form input bundle for Vue Formly",
-  "main": "dist/vue-formly-bootstrap.js",
+  "name": "vue-formly-quasar-framework",
+  "version": "1.0.0",
+  "description": "A quasar-framework based form input bundle for Vue Formly",
+  "main": "dist/vue-formly-quasar-framework.js",
   "scripts": {
-    "test": "karma start test/unit/karma.conf.js",
     "build": "webpack --config webpack.build.config.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/formly-js/vue-formly-bootstrap.git"
+    "url": "git+https://github.com/imdanielpiva/vue-formly-quasar-framework.git"
   },
   "keywords": [
     "vue",
@@ -18,9 +17,9 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/formly-js/vue-formly-bootstrap/issues"
+    "url": "https://github.com/imdanielpiva/vue-formly-quasar-framework/issues"
   },
-  "homepage": "https://github.com/formly-js/vue-formly-bootstrap#readme",
+  "homepage": "https://github.com/imdanielpiva/vue-formly-quasar-framework#readme",
   "peerDependencies": {
     "vue-formly": "2.x"
   },
